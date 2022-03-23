@@ -1,7 +1,12 @@
+import "./app.css";
+import Header from "../Components/Header/header";
+import MicSystem from "../Components/MicSystem/micSystem";
+
 function App() {
   return (
     <>
-        <h1>Welcome to React.JS</h1>
+        <Header/>
+        <MicSystem/>
     </>
   );
 }
